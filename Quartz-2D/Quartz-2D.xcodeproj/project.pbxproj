@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D05B50D1CF447FF001906EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D05B50C1CF447FF001906EA /* main.m */; };
+		3D05B5101CF447FF001906EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D05B50F1CF447FF001906EA /* AppDelegate.m */; };
+		3D05B5131CF447FF001906EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D05B5121CF447FF001906EA /* ViewController.m */; };
+		3D05B5161CF447FF001906EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D05B5141CF447FF001906EA /* Main.storyboard */; };
+		3D05B5181CF447FF001906EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D05B5171CF447FF001906EA /* Assets.xcassets */; };
+		3D05B51B1CF447FF001906EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D05B5191CF447FF001906EA /* LaunchScreen.storyboard */; };
+		3D05B5241CF44822001906EA /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D05B5231CF44822001906EA /* MyView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D05B5081CF447FF001906EA /* Quartz-2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz-2D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D05B50C1CF447FF001906EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D05B50E1CF447FF001906EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D05B50F1CF447FF001906EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D05B5111CF447FF001906EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D05B5121CF447FF001906EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D05B5151CF447FF001906EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D05B5171CF447FF001906EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D05B51A1CF447FF001906EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D05B51C1CF447FF001906EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D05B5221CF44822001906EA /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		3D05B5231CF44822001906EA /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D05B5051CF447FF001906EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D05B4FF1CF447FF001906EA = {
+			isa = PBXGroup;
+			children = (
+				3D05B50A1CF447FF001906EA /* Quartz-2D */,
+				3D05B5091CF447FF001906EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D05B5091CF447FF001906EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D05B5081CF447FF001906EA /* Quartz-2D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D05B50A1CF447FF001906EA /* Quartz-2D */ = {
+			isa = PBXGroup;
+			children = (
+				3D05B50E1CF447FF001906EA /* AppDelegate.h */,
+				3D05B50F1CF447FF001906EA /* AppDelegate.m */,
+				3D05B5111CF447FF001906EA /* ViewController.h */,
+				3D05B5121CF447FF001906EA /* ViewController.m */,
+				3D05B5221CF44822001906EA /* MyView.h */,
+				3D05B5231CF44822001906EA /* MyView.m */,
+				3D05B5141CF447FF001906EA /* Main.storyboard */,
+				3D05B5171CF447FF001906EA /* Assets.xcassets */,
+				3D05B5191CF447FF001906EA /* LaunchScreen.storyboard */,
+				3D05B51C1CF447FF001906EA /* Info.plist */,
+				3D05B50B1CF447FF001906EA /* Supporting Files */,
+			);
+			path = "Quartz-2D";
+			sourceTree = "<group>";
+		};
+		3D05B50B1CF447FF001906EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D05B50C1CF447FF001906EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D05B5071CF447FF001906EA /* Quartz-2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D05B51F1CF447FF001906EA /* Build configuration list for PBXNativeTarget "Quartz-2D" */;
+			buildPhases = (
+				3D05B5041CF447FF001906EA /* Sources */,
+				3D05B5051CF447FF001906EA /* Frameworks */,
+				3D05B5061CF447FF001906EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quartz-2D";
+			productName = "Quartz-2D";
+			productReference = 3D05B5081CF447FF001906EA /* Quartz-2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D05B5001CF447FF001906EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = cxwl;
+				TargetAttributes = {
+					3D05B5071CF447FF001906EA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 3D05B5031CF447FF001906EA /* Build configuration list for PBXProject "Quartz-2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D05B4FF1CF447FF001906EA;
+			productRefGroup = 3D05B5091CF447FF001906EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D05B5071CF447FF001906EA /* Quartz-2D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D05B5061CF447FF001906EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D05B51B1CF447FF001906EA /* LaunchScreen.storyboard in Resources */,
+				3D05B5181CF447FF001906EA /* Assets.xcassets in Resources */,
+				3D05B5161CF447FF001906EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D05B5041CF447FF001906EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D05B5241CF44822001906EA /* MyView.m in Sources */,
+				3D05B5131CF447FF001906EA /* ViewController.m in Sources */,
+				3D05B5101CF447FF001906EA /* AppDelegate.m in Sources */,
+				3D05B50D1CF447FF001906EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D05B5141CF447FF001906EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D05B5151CF447FF001906EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D05B5191CF447FF001906EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D05B51A1CF447FF001906EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D05B51D1CF447FF001906EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D05B51E1CF447FF001906EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D05B5201CF447FF001906EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quartz-2D/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cxwl.Quartz-2D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D05B5211CF447FF001906EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quartz-2D/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cxwl.Quartz-2D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D05B5031CF447FF001906EA /* Build configuration list for PBXProject "Quartz-2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D05B51D1CF447FF001906EA /* Debug */,
+				3D05B51E1CF447FF001906EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D05B51F1CF447FF001906EA /* Build configuration list for PBXNativeTarget "Quartz-2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D05B5201CF447FF001906EA /* Debug */,
+				3D05B5211CF447FF001906EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D05B5001CF447FF001906EA /* Project object */;
+}
